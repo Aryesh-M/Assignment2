@@ -1,8 +1,8 @@
-1) Implement rest of Company controller functions, all the way down to data access layer
+1) Implemented the Company controller functions, all the way down to data access layer
 
-2) Change all Company controller functions to be asynchronous
+2) Made all Company controller functions to be asynchronous
 
-3) Create new repository to get and save employee information with the following data model properties:
+3) Created a new repository to get and save employee information with the following data model properties:
 
 * string SiteId,
 * string CompanyCode,
@@ -14,7 +14,7 @@
 * string Phone,
 * DateTime LastModified
 
-4) Create employee controller to get the following properties for client side:
+4) Created an employee controller to get the following properties for client-side:
 
 * string EmployeeCode,
 * string EmployeeName,
@@ -25,4 +25,4 @@
 * string PhoneNumber,
 * string LastModifiedDateTime
 
-5) Add logger to solution and add proper error handling
+5) Added a logger to the solution and add proper error handling
